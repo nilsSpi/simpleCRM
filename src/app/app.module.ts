@@ -28,6 +28,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import {MatCardModule} from '@angular/material/card';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { DialogEditAdressComponent } from './dialog-edit-adress/dialog-edit-adress.component';
+import { DialogEditUserComponent } from './dialog-edit-user/dialog-edit-user.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import {MatMenuModule} from '@angular/material/menu';
     DashboardComponent,
     UserComponent,
     DialogAddUserComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    DialogEditAdressComponent,
+    DialogEditUserComponent
   ],
   imports: [
     BrowserModule,
